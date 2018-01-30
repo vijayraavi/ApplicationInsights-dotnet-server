@@ -35,7 +35,7 @@
         /// Child requests caused by <see cref="System.Web.Handlers.TransferRequestHandler" />.
         /// Unit tests should disable this.
         /// </remarks>
-        public bool EnableChildRequestTrackingSuppression { get; set; } = true;
+        public bool EnableChildRequestTrackingSuppression { get; set; } = false;
 
         /// <summary>
         /// Gets or sets a value indicating the size of internal tracking dictionary.
